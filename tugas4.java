@@ -13,3 +13,11 @@ public class tugas4 {
         System.out.println("2. Arsitektur");
         System.out.println("3. Teknik Sipil");
 
+        int pilihan = getInput(input);
+
+        if (pilihan == 0) {
+            System.out.println("Jurusan tidak tersedia.");
+        } else {
+            tampilkanPilihan(pilihan);
+        }
+    }
