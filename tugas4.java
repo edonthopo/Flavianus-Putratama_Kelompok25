@@ -16,7 +16,7 @@ public class tugas4 {
         int pilihan = getInput(input);
 
         if (pilihan == 0) {
-            System.out.println("Jurusan tidak tersedia.");
+            System.out.println("Jurusan ini tidak tersedia.");
         } else {
             tampilkanPilihan(pilihan);
         }
