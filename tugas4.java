@@ -22,6 +22,7 @@ public class tugas4 {
         }
     }
     
+    
     // Method untuk meminta input pilihan dari pengguna
     public static int getInput(Scanner input) {
         int pilihan;
