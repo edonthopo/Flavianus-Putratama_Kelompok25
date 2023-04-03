@@ -21,3 +21,17 @@ public class tugas4 {
             tampilkanPilihan(pilihan);
         }
     }
+public static void tampilkanPilihan(int pilihan) {
+        switch (pilihan) {
+            case 1:
+                System.out.println("Anda memilih Teknik Komputer.");
+                break;
+            case 2:
+                System.out.println("Anda memilih Arsitektur.");
+                break;
+            case 3:
+                System.out.println("Anda memilih Teknik Sipil.");
+                break;
+        }
+    }
+}
