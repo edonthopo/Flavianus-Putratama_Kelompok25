@@ -21,6 +21,21 @@ public class tugas4 {
             tampilkanPilihan(pilihan);
         }
     }
+    
+    // Method untuk meminta input pilihan dari pengguna
+    public static int getInput(Scanner input) {
+        int pilihan;
+        do {
+            System.out.print("Masukkan pilihan Anda (1-3): ");
+            pilihan = input.nextInt();
+            if (pilihan < 1 || pilihan > 3) {
+                pilihan = 0;
+                break;
+            }
+        } while (pilihan < 1 || pilihan > 3);
+        return pilihan;
+    }
+    
 public static void tampilkanPilihan(int pilihan) {
         switch (pilihan) {
             case 1:
